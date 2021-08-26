@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 // import Confetti from "react-confetti";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 import Link from 'next/link'
 
 import Layout from "../components/Layout";
@@ -23,15 +23,13 @@ const Message = styled.div`
 
 const Success= ()=> {
 
-  const home=()=>{
 
-  }
 
 
   return (
     <Layout title="Success!">
       <div>
-        {/* <Confetti width={width} height={height} numberOfPieces={450} /> */}
+         {/* <Confetti width={20} height={20} numberOfPieces={450} /> */}
 
         <h3> Congrats ! Stripe has successfully processed your payment</h3>
 
